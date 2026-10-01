@@ -1,0 +1,5 @@
+aiogram>=3.28,<4
+aiohttp>=3.12,<4
+pymongo>=4.13,<5
+dnspython>=2.7,<3
+prometheus-client>=0.22,<1

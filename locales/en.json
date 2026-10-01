@@ -1,0 +1,12 @@
+{
+  "start": "🔒 <b>Verification & Access Control</b>\n\nThis service protects communities with a quick verification step before approving join requests.\n\n<i>When you request access to a protected group, your verification challenge will appear here.</i>",
+  "challenge_title": "🛡️ <b>Security Verification</b>",
+  "challenge_body": "Hello, <b>{name}</b>. You requested access to <b>{chat_title}</b>.\n\nSolve this operation to complete verification:\n\n<blockquote>What is <b>{a} + {b}</b>?</blockquote>\n⏳ Time: <b>{timeout} seconds</b>\n🎯 Attempts available: <b>{attempts}</b>",
+  "success": "✅ <b>Access approved</b>\n\nVerification succeeded and your request for <b>{chat_title}</b> was approved.",
+  "wrong_retry": "⚠️ <b>Incorrect answer</b>\n\nYou still have another chance.\n🎯 Attempts remaining: <b>{attempts}</b>",
+  "wrong": "❌ <b>Verification failed</b>\n\nThe selected answer was incorrect. Your join request has been declined.",
+  "timeout": "⏳ <b>Time expired</b>\n\nNo answer was received within {timeout} seconds. Your join request was canceled.",
+  "session_expired": "⚠️ This verification session has expired or has already been processed.",
+  "generic_error": "⚠️ Verification could not be completed. Please request access again.",
+  "rate_limited": "🛑 Too many requests in a short period. Please try again later."
+}

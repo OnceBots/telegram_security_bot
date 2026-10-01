@@ -1,0 +1,12 @@
+{
+  "start": "🔒 <b>Sistema de Verificación y Control de Acceso</b>\n\nEste asistente protege comunidades mediante una verificación rápida antes de aprobar solicitudes de ingreso.\n\n<i>Cuando solicites unirte a un grupo protegido, recibirás aquí el desafío.</i>",
+  "challenge_title": "🛡️ <b>Verificación de Seguridad</b>",
+  "challenge_body": "Hola, <b>{name}</b>. Has solicitado ingresar a <b>{chat_title}</b>.\n\nResuelve esta operación para completar la verificación:\n\n<blockquote>¿Cuánto es <b>{a} + {b}</b>?</blockquote>\n⏳ Tiempo: <b>{timeout} segundos</b>\n🎯 Intentos disponibles: <b>{attempts}</b>",
+  "success": "✅ <b>Acceso aprobado</b>\n\nLa verificación fue correcta y tu solicitud para <b>{chat_title}</b> fue aprobada.",
+  "wrong_retry": "⚠️ <b>Respuesta incorrecta</b>\n\nTodavía puedes intentarlo otra vez.\n🎯 Intentos restantes: <b>{attempts}</b>",
+  "wrong": "❌ <b>Verificación fallida</b>\n\nLa respuesta no fue correcta. Tu solicitud de ingreso ha sido rechazada.",
+  "timeout": "⏳ <b>Tiempo expirado</b>\n\nNo se recibió una respuesta dentro de los {timeout} segundos. Tu solicitud de ingreso fue cancelada.",
+  "session_expired": "⚠️ Esta sesión de verificación ha expirado o ya fue procesada.",
+  "generic_error": "⚠️ No se pudo completar la verificación. Solicita el acceso nuevamente.",
+  "rate_limited": "🛑 Demasiadas solicitudes en poco tiempo. Intenta nuevamente más tarde."
+}
